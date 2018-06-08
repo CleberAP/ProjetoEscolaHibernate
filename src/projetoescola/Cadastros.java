@@ -21,7 +21,7 @@ public class Cadastros {
         Aluno alu = new Aluno();
         String nome = JOptionPane.showInputDialog("Insira o nome do Aluno:");
         String idade = JOptionPane.showInputDialog("Insira o Idade do Aluno:");
-        String sexo = JOptionPane.showInputDialog("Insira o Sexo Real do Aluno:");
+        String sexo = JOptionPane.showInputDialog("Insira o Sexo Realmente do Aluno:");
         String semestre = JOptionPane.showInputDialog("Insira o Semestre do Aluno:");
         String turno = JOptionPane.showInputDialog("Insira o Turno do Aluno:");
         alu.setNome(nome);
